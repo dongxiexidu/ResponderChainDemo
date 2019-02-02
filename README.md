@@ -318,7 +318,7 @@ NSString *const kEventMyImageViewName = @"CustomImageViewEvent";
 @end
 ```
 
-这样控制器把事件的处理交给`eventProxy`去处理,这样控制器是不是很清爽呢,是不是很像**MVCE（Modle View Controller Event)**
+这样控制器把事件的处理交给`eventProxy`去处理,这样控制器是不是很清爽呢,是不是很像**MVCE（Modle View Controller Event)**,当然跟MVP模式很像
 
 ## 总结一下:
 - 1.在子view中发送事件
