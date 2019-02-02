@@ -9,11 +9,14 @@
 #import "CustomView.h"
 #import "UIResponder+Router.h"
 
+
+
 @interface CustomView ()
 
 @property (weak, nonatomic) IBOutlet UISwitch *mySwitch;
 @property (weak, nonatomic) IBOutlet UIButton *button;
 @property (weak, nonatomic) IBOutlet UIImageView *myImageView;
+
 
 @end
 
@@ -21,11 +24,14 @@ extern NSString *kEventMyButtonName;
 extern NSString *kEventMySwitchName;
 extern NSString *kEventMyImageViewName;
 
+
+
 @implementation CustomView
 
 - (void)awakeFromNib{
     [super awakeFromNib];
     
+
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageViewTapAction)];
     [self.myImageView addGestureRecognizer:tap];
 }
@@ -36,6 +42,10 @@ extern NSString *kEventMyImageViewName;
 }
 
 - (IBAction)btnClick:(UIButton *)sender {
+//    if ([_delegate respondsToSelector:@selector(btnClick:)]) {
+//        [_delegate btnClick:sender];
+//    }
+    
     NSInteger num = sender.currentTitle.integerValue;
     num = num + 1;
     

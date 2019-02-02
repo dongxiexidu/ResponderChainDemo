@@ -16,6 +16,7 @@
 		11218B1C2205399100690AAF /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 11218B1B2205399100690AAF /* UIResponder+Router.m */; };
 		11218B1F22053F0200690AAF /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11218B1E22053F0200690AAF /* CustomView.m */; };
 		11218B2122053F1600690AAF /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11218B2022053F1600690AAF /* CustomView.xib */; };
+		11218B24220580F700690AAF /* EventProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11218B23220580F700690AAF /* EventProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		11218B1D22053F0200690AAF /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
 		11218B1E22053F0200690AAF /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 		11218B2022053F1600690AAF /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		11218B22220580F700690AAF /* EventProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventProxy.h; sourceTree = "<group>"; };
+		11218B23220580F700690AAF /* EventProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				11218B1B2205399100690AAF /* UIResponder+Router.m */,
 				11218B072205392900690AAF /* ViewController.h */,
 				11218B082205392900690AAF /* ViewController.m */,
+				11218B22220580F700690AAF /* EventProxy.h */,
+				11218B23220580F700690AAF /* EventProxy.m */,
 				11218B1D22053F0200690AAF /* CustomView.h */,
 				11218B1E22053F0200690AAF /* CustomView.m */,
 				11218B2022053F1600690AAF /* CustomView.xib */,
@@ -160,6 +165,7 @@
 				11218B142205392B00690AAF /* main.m in Sources */,
 				11218B062205392900690AAF /* AppDelegate.m in Sources */,
 				11218B1C2205399100690AAF /* UIResponder+Router.m in Sources */,
+				11218B24220580F700690AAF /* EventProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

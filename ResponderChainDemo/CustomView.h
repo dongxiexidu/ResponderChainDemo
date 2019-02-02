@@ -10,7 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol CustomViewDelegate <NSObject>
+
+- (void)btnClick:(UIButton *)btn;
+
+@end
+
 @interface CustomView : UIView
+
+@property (nonatomic, weak) id<CustomViewDelegate> delegate;
 
 @end
 
